@@ -56,7 +56,7 @@ function startExam() {
 		questionN[i]=i;
 	}
 	shuffle(questionN)
-	$(`#questionsBox`).append(`<lable>نسبت به سوال به جواب پاسخ دهید(جواب ندادن سوال به معنای متابق نبودن گزینه ها با شماست)</lable>`);
+	$(`#questionsBox`).append(`<lable>نسبت به سوال به جواب پاسخ دهید(جواب ندادن سوال به معنای مطابق نبودن گزینه ها با شماست)</lable>`);
 	for (var i = 0; i < question.length; i++) {
 		$(`#questionsBox`).append(`
 			<div class="examQuestion">

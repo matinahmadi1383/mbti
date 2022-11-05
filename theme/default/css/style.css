@@ -107,6 +107,14 @@ h4{
 	#btns a button{
 		line-height: 50px;
 	}
+	#examStart2{
+		margin-right: 10px !important;
+	}
+}
+#examStart2{
+	width: 200px;
+	height: 100px;
+	margin-right: 100px;
 }
 #examStart{
 	width: 200px;
