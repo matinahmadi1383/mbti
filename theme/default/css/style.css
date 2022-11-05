@@ -1,0 +1,135 @@
+@font-face{
+	font-family: vazir;
+	src: url(../fonts/Vazir-Regular.woff2);
+}
+@font-face{
+	font-family: vazir;
+	font-weight: bold;
+	src: url(../fonts/Vazir-Bold.woff2);
+}
+*{
+	box-sizing: border-box;
+}
+html{
+	direction: rtl;
+}
+body{
+	font-family: vazir;
+	font-size: 16px;
+	background-color: #81B622;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#box{
+	width: 80%;
+	min-height: 600px;
+	background-color: white;
+	margin: 12px auto;
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 2px darkgrey;
+	border-image: url(../images/border.png) 30 stretch;
+	border-image-outset: 0.5;
+}
+#icon{
+	direction: ltr;
+}
+#icon i{
+	font-size: 30px !important;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	color: darkred;
+}
+p{
+	text-align: justify;
+	color: black;
+}
+#text{
+	margin: 0px 58px 20px 58px ;
+	text-align: justify;
+	font-weight: 550;
+}
+h2{
+	font-size: 24px;
+	font-weight: bold;
+	color: darkgreen;
+}
+h3{
+	color: darkred;
+	font-size: 16px;
+	display: inline-block;
+	font-weight: 900;
+}
+span{
+	color: darkred;
+	font-weight: 800;
+}
+h4{
+	display: inline-block;
+}
+#btns{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+}
+#btns a{
+	width: 20%;
+	height: 150px;
+	margin: 10px;
+}
+#btns a button{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px 50% 5px 50%;
+	text-align: center;
+	line-height: 150px;
+}
+.btn{
+	padding: 0;
+}
+.btn:hover{
+	transition: 0.2s;
+	transform: scale(1.02);
+}
+@media screen and (max-width: 500px)
+{
+	#text{
+		margin: 0;
+	}
+	#btns a{
+		height: 50px;
+	}
+	#btns a button{
+		line-height: 50px;
+	}
+}
+#examStart{
+	width: 200px;
+	height: 100px;
+}
+#questionsBox{
+	width: 100%;
+	height: 100%;
+}
+.examQuestion{
+	width: 100%;
+	height: 100%;
+}
+.questionText{
+	font-size: 1.5rem;
+	margin: 20px;
+}
+.questionOption form{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-right: 20px;
+}
+.questionOption form input{
+	margin-bottom: 5px;
+}
